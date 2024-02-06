@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide@3.3.0/dist/css/glide.core.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <section class="container">
+            <img src="./images/logos.png" alt="" class="logo">
+            <nav class="navigation">
+                <a href="" class="navigation__link">Профориентация</a>
+                <a href="" class="navigation__link">Выбрать вакансию </a>
+                <a href="" class="navigation__link">Карьера в ГЭНДАЛЬФ </a>
+                <a href="" class="navigation__link">Стажерство</a>
+                <a href="" class="navigation__link">Отзывы </a>
+            </nav>
+            <nav class="navigation__mobile">
+                <a href="" class="navigation__link"><img src="./images/svg/search.svg" alt=""></a>
+                <a href="" class="navigation__link"><img src="./images/svg/magazine.svg" alt=""></a>
+                <a href="" class="logo2"><img src="./images/logo2.png" alt=""></a>
+                <a href="" class="navigation__link"><img src="./images/svg/profile.svg" alt=""></a>
+               <img src="./images/svg/menu.svg" alt="" id="menuBtn">
+                
+            </nav>
+            <div class="menu-overlay" id="menuOverlay">
+                
+                <div class="menu">
+                    <img src="./images/svg/close.svg" alt="" id="closeBtn">
+                    <a href="" class="navigation__link">Профориентация</a>
+                    <a href="" class="navigation__link">Выбрать вакансию </a>
+                    <a href="" class="navigation__link">Карьера в ГЭНДАЛЬФ </a>
+                    <a href="" class="navigation__link">Стажерство</a>
+                    <a href="" class="navigation__link">Отзывы </a>
+                </div>
+              </div>
+            <button class="header__button">Запись на собеседование</button>
+        </section>
+    </header>
+    <section class="welcome__content">
+            <div class="overlay">
+               <div class="overlay__content">
+                    <h1 class="overlay__head">Добро пожаловать в ГЭНДАЛЬФ!</h1>
+                    <p class="overlay__text">
+                        Мы готовы поделиться секретом, почему любим компанию,
+                        в которой работаем. Если тебе будут близки наши ценности и идеи,
+                        то смело записывайся на собеседование!
+                    </p>
+                    <div class="overlay__buttons">
+                        <button class="overlay__button1">Почему мы</button>
+                        <button class="overlay__button2">Записаться на собеседование</button>
+                    </div>
+               </div>
+            </div>
+    </section>
+    <section class="about">
+        <section class="about__container">
+            <div class="about__content">
+                <div class="about__texts">
+                    <h2 class="about__head">
+                        О том, чем мы занимаемся
+                    </h2>
+                    <p class="about__description">
+                        ГЭНДАЛЬФ – один из крупнейших игроков на рынке информационных технологий, 
+                        занимающий 4 место среди 7000 партнеров фирмы «1С». У нас есть представительства
+                        в 15 городах России, а нашими услугами пользуются 23 000 организаций-клиентов,
+                        в числе которых «Базэл Аэро», «Ростсельмаш», UTG. Аэропорт Кольцово и многие другие.
+                        <br />
+                        <br />
+                        Мы тщательно подходим к выбору сотрудников, которые становятся частью команды профессионалов.
+                        <br />
+                        <br />
+                        У нас работают специалисты разных областей: программисты, маркетологи, менеджеры, копирайтеры,
+                        методисты и другие, чей карьерный рост не ограничен привычными рамками.
+                    </p>
+                </div>
+                <div class="about__buttons">
+                    <button class="about__button1">
+                        Узнать больше
+                    </button>
+                    <button class="about__button2">
+                        Записаться на собеседование
+                    </button>
+                </div>
+            </div>
+            <div class="about__images">
+                <img src="./images/svg/brown.svg" class="about__brown" alt="">
+                <img src="./images/svg/green.svg" class="about__green" alt="">
+                <img src="./images/svg/blue.svg" class="about__blue" alt="">
+                <img src="./images/hr.png" class="about__hr" alt="">
+            </div>
+        </section>
+    </section>
+    <section class="slider">
+        <h2 class="slider__head">Наши ценности скажут о нас больше:</h2>
+    <div class="glide__container">
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                    <img src="./images/slide_1.png" alt="" class="glide__image">
+                    <h3 class="glide__head">
+                        Быть командой
+                    </h3>
+                    <p class="glide__description">
+                        Готовность вносить вклад в общие цели команды и достигать их.
+                    </p>
+                </li>
+                <li class="glide__slide">
+                    <img src="./images/slide_2.png" alt="" class="glide__image">
+                    <h3 class="glide__head">
+                        Побеждать и не сдаваться
+                    </h3>
+                    <p class="glide__description">
+                        Быть ориентированным на результат, настойчивым и не сдаваться перед трудностями.
+                    </p>
+                </li>
+                <li class="glide__slide">
+                    <img src="./images/slide_3.png" alt="" class="glide__image">
+                    <h3 class="glide__head">
+                        Заботиться о клиентах
+                    </h3>
+                    <p class="glide__description">
+                        Выполнять обещания и интересоваться потребностями своих клиентов 
+                    </p>
+                </li>
+                <li class="glide__slide">
+                    <img src="./images/slide_4.png" alt="" class="glide__image">
+                    <h3 class="glide__head">
+                        Быть увлеченным и ответственным
+                    </h3>
+                    <p class="glide__description">                  
+                        Вкладывать душу в то, что делаешь и получать от работы удовольствие.
+                    </p>
+                </li>
+              </ul>
+            </div>
+          </div>              
+        </div>
+        </section>
+        <section class="infrastructure">
+            <section class="infrastructure__container">
+            <h1 class="infrastructure__head">Инфраструктура для твоего развития и роста</h1>
+            <div class="infrastructure__content">
+                <p class="infrastructure__description">
+                    Мы создаем платформу для профессионального развития каждого сотрудника. 
+                    Главная цель – дать возможность учиться, работать и получать удовольствие от каждой успешной задачи.
+                    О возможностях личностного роста в ГЭНДАЛЬФ расскажет руководитель
+                    Департамента персонала и карьеры Татьяна Арсенович.
+                </p>
+                <div class="video__container">
+                    <img class="video__poster" src="./images/preview.png" alt="Видео постер">    
+                    <div class="play__icon" onclick="playVideo()"></div>
+                    <video id="myVideo" controls>
+                      <source src="video.mp4" type="video/mp4">
+                      ваш браузер не поддерживает тег video
+                    </video>
+                  </div>
+                </div>
+        </section>
+        </section>
+        <section class="student">
+            <div class="student__overlay">
+               <div class="student__overlay_content">
+                    <h1 class="student__overlay_head">Ты студент и хочешь <br />устроиться на практику?</h1>
+                    <button class="student__overlay_button">Оставить заявку</button>
+               </div>
+            </div>
+        </section>
+        <section class="answers">
+            <section class="answers__container">
+                <div class="answers__content">
+                    <h2 class="answers__head">Ответы на вопросы</h2>
+                    <div class="accordion">
+                        <div class="accordion__item">
+                            <div class="accordion__header">
+                                <img class="arrow" src="./images/arrow.png" alt="">
+                                <p class="arrow__description">На что нужно обратить внимание на собеседовании?</p>
+                            </div>
+                            <div class="accordion__content">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Porro explicabo itaque excepturi fugiat officia in hic, doloribus
+                                    id nulla quae mollitia accusamus provident quos. 
+                                    Facilis quas neque architecto ducimus perspiciatis.</p>
+                            </div>
+                        </div>
+                    
+                        <div class="accordion__item">
+                            <div class="accordion__header">
+                                <img class="arrow" src="./images/arrow.png" alt="">
+                                <p class="arrow__description">Как правильно составить резюме?</p>
+                            </div>
+                            <div class="accordion__content">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Porro explicabo itaque excepturi fugiat officia in hic, doloribus
+                                    id nulla quae mollitia accusamus provident quos. 
+                                    Facilis quas neque architecto ducimus perspiciatis.</p>
+                            </div>
+                        </div>
+                            
+                        <div class="accordion__item">
+                            <div class="accordion__header">
+                                <img class="arrow" src="./images/arrow.png" alt="">
+                                <p class="arrow__description">Возможно ли устроиться без опыта?</p>
+                            </div>
+                            <div class="accordion__content">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Porro explicabo itaque excepturi fugiat officia in hic, doloribus
+                                    id nulla quae mollitia accusamus provident quos. 
+                                    Facilis quas neque architecto ducimus perspiciatis.</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item">
+                            <div class="accordion__header">
+                            <img class="arrow" src="./images/arrow.png" alt="">
+                                <p class="arrow__description">Ошибки на собеседовании. Чего нужно избегать?</p>
+                            </div>
+                            <div class="accordion__content">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Porro explicabo itaque excepturi fugiat officia in hic, doloribus
+                                    id nulla quae mollitia accusamus provident quos. 
+                                    Facilis quas neque architecto ducimus perspiciatis.</p>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+                    <img src="./images/question.png" alt="" class="answers__image">
+            </section>
+        </section>
+        <section class="form">
+            <div class="form__overlay">
+               <div class="form__container">
+                    <h2 class="form__head">
+                        Записаться на собеседование
+                    </h2>
+                    <form action="" class="form__main">
+                        <div class="form__template">
+                            <div class="form__main_fields">
+                                <input type="text" class="form__main_field required" placeholder="Как к вам обращаться?" oninput="validateField(this)" onblur="resetField(this)">
+                                <input type="text" class="form__main_field required" placeholder="Телефон" oninput="validatePhone(this)" onblur="resetField(this)">
+                                <input type="text" class="form__main_field required" placeholder="Email" oninput="validateEmail(this)" onblur="resetField(this)">
+                                <input type="text" class="form__main_field required" placeholder="Желаемая должность" oninput="validateField(this)" onblur="resetField(this)">
+                            </div>
+                        <div id="error-message"></div>
+                        <p class="form__description">Выберите категорию занятости</p>
+                        <div class="label__groups">
+                            <div class="label__group">
+                                    <input type="checkbox" id="checkbox1" />
+                                    <label for="checkbox1"></label>
+                                    <p class="label__group_text">Работа в офисе</p>
+                            </div>
+                            <div class="label__group">
+                                    <input type="checkbox" id="checkbox2" />
+                                    <label for="checkbox2"></label>
+                                    <p class="label__group_text">Стажировка</p>
+                            </div>
+                            <div class="label__group">
+                                    <input type="checkbox" id="checkbox3" />
+                                    <label for="checkbox3"></label>
+                                    <p class="label__group_text">Удаленная работа</p>
+                            </div>  
+                        </div>
+                        <textarea type="text" class="form__group_text" placeholder="Ваши вопросы"></textarea>
+                        <div class="form__buttons">
+                            <button type="button" class="form__button1">Прикрепить резюме<img src="./images/svg/clip.svg" alt=""></button>
+                            <button type="button" class="form__button2" onclick="if(validateForm()) alert('Form is valid!')">Оставить заявку</button>
+                        </div>     
+                </div>
+            </form>
+               </div>
+            </div>
+        </section>
+
+       
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script  type="text/javascript" src="./index.js"></script>
+</body>
+</html>
